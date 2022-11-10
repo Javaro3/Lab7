@@ -1,0 +1,16 @@
+﻿<Window x:Class="Lab7.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab7"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <Label Content="Введите бренд автомобиля" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Center" Margin="0,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" FontSize="20" TextChanged="textBox_TextChanged"/>
+        <Button x:Name="btn" Content="Подтвердить" HorizontalAlignment="Center" Margin="0,86,0,0" VerticalAlignment="Top" FontSize="20" Width="261" Click="btn_Click"/>
+        <Label x:Name="res" Content="" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top" FontSize="16" Height="289" Width="752"/>
+
+    </Grid>
+</Window>
